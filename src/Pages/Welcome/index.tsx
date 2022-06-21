@@ -15,7 +15,7 @@ import {
 import { CaretRight } from "phosphor-react-native";
 import { theme } from "../../Global/Styles/theme";
 
-export default function Welcome() {
+export default function Welcome({ navigation }: any) {
   return (
     <Background>
       <Container>
@@ -27,7 +27,7 @@ export default function Welcome() {
           </SubTitle>
         </Content>
         <BtnContent>
-          <Btn>
+          <Btn onPress={() => navigation.navigate("Home")}>
             <BtnTextCont>
               <BtnText>Começar</BtnText>
             </BtnTextCont>
