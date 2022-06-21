@@ -9,6 +9,25 @@ export const Container = styled.View`
 export const Content = styled.View`
   width: 100%;
   height: 80%;
+  justify-content: center;
+  align-items: center;
+`;
+export const Img = styled.Image`
+  width: 250px;
+  height: 250px;
+  margin: 15px 0;
+`;
+export const Title = styled.Text`
+  color: ${theme.colors.yellowLight};
+  font-size: 50px;
+  font-family: ${theme.fonts.radBold};
+  text-shadow: 0px 4px 4px rgba(0,0,0,0.3);
+`;
+export const SubTitle = styled.Text`
+  color: ${theme.colors.light};
+  font-size: 18px;
+  font-family: ${theme.fonts.intMed};
+  text-shadow: 0px 4px 4px rgba(0,0,0,0.3);
 `;
 export const BtnContent = styled.View`
   width: 100%;
@@ -29,7 +48,6 @@ export const BtnTextCont = styled.View`
   width: 100%;
   justify-content: center;
   align-items: center;
-  background-color: red;
 `;
 export const BtnText = styled.Text`
   font-size: 24px;
@@ -39,7 +57,8 @@ export const BtnText = styled.Text`
 export const BtnIconCont = styled.View`
   height: 100%;
   width: 15%;
-  background-color: blue;
   position: absolute;
   right: 0px;
+  justify-content: center;
+  align-items: center;
 `;
