@@ -8,40 +8,25 @@ export const Container = styled.View`
   align-items: center;
 `;
 
-export const LocView = styled.View`
-  width: 100%;
-  height: 80%;
-`;
-
-export const TitleLocView = styled.View`
-  justify-content: flex-end;
-  align-items: baseline;
-  width: 100%;
-  height: 20%;
-`;
-
 export const Title = styled.Text`
   font-size: 24px;
   font-family: ${theme.fonts.radBold};
   color: ${theme.colors.light};
 `;
 
-export const SubTitleLoc = styled.Text`
-  font-size: 12px;
-  font-family: ${theme.fonts.intReg};
-  color: ${theme.colors.light};
-`;
-
-export const MapImg = styled.Image`
-  margin-top: 5%;
-  width: 100%;
-  max-height: 70%;
-  resize-mode: cover;
-  align-self: center;
-  border-radius: 10px;
-`;
-
 export const CuriView = styled.View`
   width: 100%;
   height: 20%;
 `;
+export const ScrollBtnView = styled.ScrollView`
+  flex: 1;
+`;
+
+export const BtnIcon = styled.Image`
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 7px;
+  bottom: 7px;
+`;
+
