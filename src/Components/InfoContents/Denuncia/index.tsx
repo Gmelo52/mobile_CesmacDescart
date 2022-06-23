@@ -5,7 +5,7 @@ export default function Denuncia() {
   return (
     <Container>
       <TitleView>
-        <Title>Descarte Incorreto</Title>
+        <Title>Denuncia</Title>
       </TitleView>
 
       <Img source={require("../../../Assets/Images/icon5.png")} />
