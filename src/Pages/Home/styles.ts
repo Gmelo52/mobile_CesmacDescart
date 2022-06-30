@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import { theme } from '../../Global/Styles/theme';
 
 export const ContentView = styled.View`
   width: 100%;
@@ -16,4 +17,9 @@ export const IconContainer = styled.TouchableOpacity`
   height: 100%;
   align-items: center;
   justify-content: center;
+`;
+export const IconTitle = styled.Text`
+  font-family: ${theme.fonts.radMed};
+  color: ${theme.colors.light};
+  font-size: 11px;
 `;
